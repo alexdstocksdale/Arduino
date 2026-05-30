@@ -6,10 +6,10 @@ void setup() {
   pinMode(onboardLED, OUTPUT);
 
   for (int i = 0; i < 3; i++) {
-  digitalWrite(onboardLED, HIGH);
-  delay(500);
-  digitalWrite(onboardLED, LOW);
-  delay(500);
+    digitalWrite(onboardLED, HIGH);
+    delay(500);
+    digitalWrite(onboardLED, LOW);
+    delay(500);
   }
 
   for (int i = 0; i < 3; i++) {
@@ -19,12 +19,12 @@ void setup() {
     delay(1000);
   }
 
-   for (int i = 0; i < 3; i++) {
-  digitalWrite(onboardLED, HIGH);
-  delay(500);
-  digitalWrite(onboardLED, LOW);
-  delay(500);
-   }
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(onboardLED, HIGH);
+    delay(500);
+    digitalWrite(onboardLED, LOW);
+    delay(500);
+  }
    
 }
 
